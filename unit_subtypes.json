@@ -1,0 +1,32 @@
+{
+    "Aircraft": [
+        "Fighter",
+        "Cargo",
+        "Reconnaissance",
+        "ASW",
+        "Helo - Reconnaissance",
+        "Helo-ASW",
+        "Helo-SAR",
+        "Helo-ASV",
+        "None"
+    ],
+    "Ship": [
+        "Surface Combatant",
+        "Merchant",
+        "Carrier",
+        "Amphibious",
+        "Auxiliary"
+    ],
+    "Submarine": [
+        "Conventional",
+        "AIP",
+        "Nuclear",
+        "Research",
+        "Rescue"
+    ],
+    "Base":[
+        "Supply Depot",
+        "Airfield",
+        "Aircraft and Supply"
+    ]
+}
