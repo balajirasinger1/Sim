@@ -159,18 +159,4 @@ for elapsed_time in range(interval, total_time + interval, interval):
 
 
 
-########################################################################################
-## --main submarine--##
 
-class MainSubmarine(Submarine):
-    def __init__(self, bound, speed=0, course=0, depth=0, subtype="", propeller_rpm=0):
-        super().__init__(bound, speed, course, depth, subtype)
-        self.propeller_rpm = propeller_rpm  # Unique to MainSubmarine for user control
-
-    def calculate_speed_from_physics(self):
-        # Advanced physics calculations for main player submarine
-        self.speed = self.propeller_rpm * 0.1  # Simplified, depends on propeller RPM and other factors
-
-    def update_position(self, time_interval):
-        self.calculate_speed_from_physics()
-        super().update_position(time_interval)  # Use updated speed in position calculation
